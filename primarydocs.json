@@ -1,0 +1,100 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "doctype" : {
+                "type": "string",
+                "required" : true,
+                "enum": [ 
+                    'Advertisement',
+                    'Advertisement in Journal',
+                    'Advertisement in Magazine',
+                    'Advertisement in Newspaper',
+                    'Archival Collection',
+                    'Artwork',
+                    'Artwork in Book',
+                    'Artwork in Journal',
+                    'Artwork in Magazine',
+                    'Artwork in Newspaper',
+                    'Bill',
+                    'Blog or Forum',
+                    'Book',
+                    'Case',
+                    'Chart or Table',
+                    'Computer Program',
+                    'Email, IM or Post',
+                    'Equation',
+                    'Film',
+                    'Hearing',
+                    'Interview',
+                    'Interview in Book',
+                    'Interview in Journal',
+                    'Interview in Magazine',
+                    'Interview in Newspaper',
+                    'Journal Article',
+                    'Letter',
+                    'Letter in Book',
+                    'Letter to Journal',
+                    'Letter to Magazine',
+                    'Letter to Newspaper',
+                    'Magazine Article',
+                    'Manuscript',
+                    'Map',
+                    'Newspaper Article',
+                    'Obituary in Journal',
+                    'Obituary in Magazine',
+                    'Obituary in Newspaper',
+                    'Other Source',
+                    'Patent',
+                    'Periodical',
+                    'Poem',
+                    'Poem in Book',
+                    'Poem in Journal',
+                    'Poem in Magazine',
+                    'Poem in Newspaper',
+                    'Presentation',
+                    'Radio or TV Broadcast',
+                    'Radio or TV Program',
+                    'Report',
+                    'Section of Book',
+                    'Sheet Music',
+                    'Song in Sheet',
+                    'Sound Recording',
+                    'Sound Track',
+                    'Statute',
+                    'Thesis',
+                    'Video Recording',
+                    'Web Page',
+                    'Web Site'
+                    ]
+            },
+            "publication": {
+                "type": "string"
+            },
+            "series": {
+                "type": "string"
+            },
+            "series_number": {
+                "type": [
+                    "string",
+                    "number"
+                ]
+            },
+            "volume": {
+                "type": [
+                    "string",
+                    "number"
+                ]
+            },
+            "number": {
+                "type": [
+                    "string",
+                    "number"
+                ]
+            },
+        },
+        "required": ["doctype", "id"]
+    }
+}

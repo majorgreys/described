@@ -1,0 +1,29 @@
+{
+  "name": "pdig-archived",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:majorgreys/pdig-archived.git",
+  "author": "Tahir Butt <tahir.butt@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@blueprintjs/core": "^1.16.0",
+    "@types/es6-shim": "^0.31.33",
+    "@types/moment": "^2.13.0",
+    "@types/pure-render-decorator": "^0.2.27",
+    "@types/react": "^15.0.24",
+    "@types/react-addons-css-transition-group": "^15.0.2",
+    "@types/react-dom": "^15.5.0",
+    "@types/redux-form": "^6.6.2",
+    "pouchdb-browser": "^6.2.0",
+    "react": "^15.5.4",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-dom": "^15.5.4",
+    "redux-form": "^6.6.3",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.3",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.3.2"
+  }
+}
